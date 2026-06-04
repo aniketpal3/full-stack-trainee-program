@@ -1,0 +1,170 @@
+/* ============================================
+   Task 4: Box Model
+   Understanding spacing and sizing
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.explanation {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.explanation h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.explanation ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.explanation li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+/* Base box styling */
+.box {
+    width: 200px;
+    background-color: #3498db;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Box 1: Content Only */
+.box-1 {
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Box 2: With Padding */
+.box-2 {
+    padding: 20px;
+    border: none;
+    margin: 0;
+    width: 200px;
+    min-height: 80px;
+}
+
+/* Box 3: With Border */
+.box-3 {
+    padding: 0;
+    border: 3px solid #e74c3c;
+    margin: 0;
+    width: 200px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Box 4: Full Box Model */
+.box-4 {
+    padding: 20px;
+    border: 3px dashed #27ae60;
+    margin: 20px 0;
+    width: 200px;
+    min-height: 80px;
+}
+
+/* Comparison section */
+.comparison {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comparison h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #34495e;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+tbody tr:hover {
+    background-color: #d5dbdb;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #bdc3c7;
+    color: #7f8c8d;
+}

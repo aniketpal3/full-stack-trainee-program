@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Box Model</h1>
+        <p class="intro">Understanding Content, Padding, Border, and Margin</p>
+
+        <section class="explanation">
+            <h2>What is the Box Model?</h2>
+            <p>Every element in CSS is a rectangular box consisting of four layers:</p>
+            <ul>
+                <li><strong>Content:</strong> The actual content (text, images)</li>
+                <li><strong>Padding:</strong> Space inside, around content</li>
+                <li><strong>Border:</strong> Line around the padding</li>
+                <li><strong>Margin:</strong> Space outside, between elements</li>
+            </ul>
+        </section>
+
+        <!-- Box 1: No spacing -->
+        <div class="box box-1">
+            <span class="label">Box 1: Content Only</span>
+            <p>No padding, border, or margin</p>
+        </div>
+
+        <!-- Box 2: Padding -->
+        <div class="box box-2">
+            <span class="label">Box 2: With Padding</span>
+            <p>padding: 20px (space inside)</p>
+        </div>
+
+        <!-- Box 3: Border -->
+        <div class="box box-3">
+            <span class="label">Box 3: With Border</span>
+            <p>border: 3px solid (edge line)</p>
+        </div>
+
+        <!-- Box 4: Full Model -->
+        <div class="box box-4">
+            <span class="label">Box 4: Full Box Model</span>
+            <p>Content + Padding + Border + Margin</p>
+        </div>
+
+        <!-- Comparison -->
+        <section class="comparison">
+            <h2>Box Model Comparison</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Box</th>
+                        <th>Content</th>
+                        <th>Padding</th>
+                        <th>Border</th>
+                        <th>Margin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Box 1</td>
+                        <td>✓</td>
+                        <td>✗</td>
+                        <td>✗</td>
+                        <td>✗</td>
+                    </tr>
+                    <tr>
+                        <td>Box 2</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✗</td>
+                        <td>✗</td>
+                    </tr>
+                    <tr>
+                        <td>Box 3</td>
+                        <td>✓</td>
+                        <td>✗</td>
+                        <td>✓</td>
+                        <td>✗</td>
+                    </tr>
+                    <tr>
+                        <td>Box 4</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Task 4 - Box Model</p>
+        </footer>
+    </div>
+</body>
+</html>
