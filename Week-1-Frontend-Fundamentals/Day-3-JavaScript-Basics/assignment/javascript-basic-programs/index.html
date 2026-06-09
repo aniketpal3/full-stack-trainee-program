@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Programs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .program {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .program h2 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        .result {
+            background: #ecf0f1;
+            padding: 12px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #2c3e50;
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result-success {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+
+        @media (max-width: 768px) {
+            .programs {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Basic Programs</h1>
+
+        <div class="programs">
+            <!-- Program 1: Number Sign Check -->
+            <div class="program">
+                <h2>1. Number Sign Check</h2>
+                <div class="input-group">
+                    <label for="num1">Enter a number:</label>
+                    <input type="number" id="num1" placeholder="e.g., -5 or 0 or 10">
+                </div>
+                <button onclick="checkSign()">Check Sign</button>
+                <div id="result1" class="result"></div>
+            </div>
+
+            <!-- Program 2: Maximum of Three Numbers -->
+            <div class="program">
+                <h2>2. Maximum of Three</h2>
+                <div class="input-group">
+                    <label for="max1">Number 1:</label>
+                    <input type="number" id="max1" placeholder="First number">
+                    <label for="max2">Number 2:</label>
+                    <input type="number" id="max2" placeholder="Second number">
+                    <label for="max3">Number 3:</label>
+                    <input type="number" id="max3" placeholder="Third number">
+                </div>
+                <button onclick="findMax()">Find Maximum</button>
+                <div id="result2" class="result"></div>
+            </div>
+
+            <!-- Program 3: Multiplication Table -->
+            <div class="program">
+                <h2>3. Multiplication Table</h2>
+                <div class="input-group">
+                    <label for="table">Enter a number:</label>
+                    <input type="number" id="table" placeholder="e.g., 5">
+                </div>
+                <button onclick="multiplicationTable()">Generate Table</button>
+                <div id="result3" class="result"></div>
+            </div>
+
+            <!-- Program 4: Even or Odd Checker -->
+            <div class="program">
+                <h2>4. Even or Odd</h2>
+                <div class="input-group">
+                    <label for="evenOdd">Enter a number:</label>
+                    <input type="number" id="evenOdd" placeholder="e.g., 7 or 12">
+                </div>
+                <button onclick="checkEvenOdd()">Check</button>
+                <div id="result4" class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
