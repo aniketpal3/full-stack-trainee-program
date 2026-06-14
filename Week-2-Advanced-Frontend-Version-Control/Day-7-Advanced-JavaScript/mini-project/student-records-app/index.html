@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student Records App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Student Records App</h1>
+
+    <p class="subtitle">
+      Manage student records using arrays, objects, and modern JavaScript methods.
+    </p>
+
+    <section class="form-card">
+      <h2>Add New Student</h2>
+
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="Enter student name"
+      >
+
+      <input
+        type="number"
+        id="ageInput"
+        placeholder="Enter student age"
+      >
+
+      <input
+        type="number"
+        id="marksInput"
+        placeholder="Enter marks"
+      >
+
+      <button id="addStudentBtn">
+        Add Student
+      </button>
+    </section>
+
+    <section class="card">
+      <h2>All Students</h2>
+      <div id="allStudents"></div>
+    </section>
+
+    <section class="card">
+      <h2>Toppers</h2>
+      <div id="toppers"></div>
+    </section>
+
+    <section class="card">
+      <h2>Class Average</h2>
+      <div id="average"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
