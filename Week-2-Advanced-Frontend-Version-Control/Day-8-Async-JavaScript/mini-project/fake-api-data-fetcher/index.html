@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fake API Data Fetcher</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Fake API Data Fetcher</h1>
+
+    <p class="subtitle">
+      Fetch and display user data using Async JavaScript and JSONPlaceholder API.
+    </p>
+
+    <div class="actions">
+      <button id="loadWithThenBtn">Load Users with Promises</button>
+      <button id="loadWithAsyncBtn">Load Users with Async/Await</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <p id="status"></p>
+
+    <div id="usersContainer" class="users-grid"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
