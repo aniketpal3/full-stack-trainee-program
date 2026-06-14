@@ -1,0 +1,14 @@
+{
+  "name": "task-1-basic-express-server",
+  "version": "1.0.0",
+  "description": "Basic Express Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

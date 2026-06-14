@@ -1,0 +1,14 @@
+{
+  "name": "task-2-route-parameters",
+  "version": "1.0.0",
+  "description": "Express Route Parameters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

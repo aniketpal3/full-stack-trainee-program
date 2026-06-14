@@ -1,0 +1,14 @@
+{
+  "name": "task-4-static-files",
+  "version": "1.0.0",
+  "description": "Serving static files with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

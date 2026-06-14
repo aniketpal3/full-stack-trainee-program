@@ -1,0 +1,14 @@
+{
+  "name": "task-3-request-time-middleware",
+  "version": "1.0.0",
+  "description": "Express middleware to log request time",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
