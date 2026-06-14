@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Events Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Day 6 Assignment – DOM Events Practice</h1>
+
+    <section class="card">
+      <h2>1. Counter App</h2>
+      <p id="counterValue">0</p>
+      <button id="decreaseBtn">-</button>
+      <button id="increaseBtn">+</button>
+    </section>
+
+    <section class="card">
+      <h2>2. Image Gallery</h2>
+      <img id="mainImage" src="https://via.placeholder.com/400x220?text=Main+Image" alt="Main preview image">
+      <div class="thumbnails">
+        <img src="https://via.placeholder.com/400x220?text=Image+1" alt="Thumbnail 1">
+        <img src="https://via.placeholder.com/400x220?text=Image+2" alt="Thumbnail 2">
+        <img src="https://via.placeholder.com/400x220?text=Image+3" alt="Thumbnail 3">
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3. Clear All List</h2>
+      <input type="text" id="listInput" placeholder="Enter item">
+      <button id="addListItemBtn">Add Item</button>
+      <button id="clearAllBtn">Clear All</button>
+      <ul id="customList"></ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Live Character Counter</h2>
+      <textarea id="messageBox" maxlength="280" placeholder="Type your message..."></textarea>
+      <p>
+        Characters:
+        <span id="charCount">0</span>/280
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
