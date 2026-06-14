@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio Enhancements Assignment</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2 class="logo">Aniket Portfolio</h2>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="darkModeBtn">Dark Mode</button>
+  </nav>
+
+  <section id="home" class="section home">
+    <h1>Portfolio Enhancement Assignment</h1>
+    <p>
+      This assignment adds image gallery, sticky navbar, phone validation,
+      and dark mode toggle.
+    </p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Image Gallery</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-card">HTML</div>
+      <div class="gallery-card">CSS</div>
+      <div class="gallery-card">JavaScript</div>
+      <div class="gallery-card">GitHub</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+
+      <input type="email" id="email" placeholder="Your Email">
+
+      <input type="text" id="phone" placeholder="Your Phone Number">
+
+      <textarea id="message" placeholder="Your Message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
