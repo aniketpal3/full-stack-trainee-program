@@ -1,0 +1,16 @@
+{
+  "name": "hello-server",
+  "version": "1.0.0",
+  "description": "Basic Hello Server using Node.js HTTP module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "http"
+  ],
+  "author": "Aniket Pal",
+  "license": "ISC"
+}

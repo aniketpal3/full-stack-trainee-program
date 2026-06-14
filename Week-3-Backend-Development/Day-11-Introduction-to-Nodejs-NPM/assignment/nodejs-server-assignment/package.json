@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-server-assignment",
+  "version": "1.0.0",
+  "description": "Node.js server assignment with time and API routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "http-server",
+    "moment"
+  ],
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

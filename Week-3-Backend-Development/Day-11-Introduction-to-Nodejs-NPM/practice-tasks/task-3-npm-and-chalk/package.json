@@ -1,0 +1,19 @@
+{
+  "name": "task-3-npm-and-chalk",
+  "version": "1.0.0",
+  "description": "Using Chalk Package in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "chalk",
+    "npm"
+  ],
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
