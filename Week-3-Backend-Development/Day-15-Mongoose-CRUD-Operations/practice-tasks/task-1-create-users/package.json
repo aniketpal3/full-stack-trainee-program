@@ -1,0 +1,14 @@
+{
+  "name": "task-1-create-users",
+  "version": "1.0.0",
+  "description": "Create users with Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}

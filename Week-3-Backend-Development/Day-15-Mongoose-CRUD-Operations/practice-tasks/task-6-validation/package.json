@@ -1,0 +1,14 @@
+{
+  "name": "task-6-validation",
+  "version": "1.0.0",
+  "description": "Mongoose Validation Practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}

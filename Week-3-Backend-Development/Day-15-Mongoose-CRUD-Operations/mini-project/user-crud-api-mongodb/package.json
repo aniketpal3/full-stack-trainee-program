@@ -1,0 +1,15 @@
+{
+  "name": "user-crud-api-mongodb",
+  "version": "1.0.0",
+  "description": "User CRUD API with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.15.1"
+  }
+}

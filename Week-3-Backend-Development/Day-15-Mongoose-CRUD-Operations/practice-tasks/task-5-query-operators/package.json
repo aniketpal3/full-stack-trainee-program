@@ -1,0 +1,14 @@
+{
+  "name": "task-5-query-operators",
+  "version": "1.0.0",
+  "description": "MongoDB Query Operators with Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}
