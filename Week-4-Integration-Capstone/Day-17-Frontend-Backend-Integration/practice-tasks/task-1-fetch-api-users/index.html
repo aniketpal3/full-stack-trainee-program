@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fetch API Users Table</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>Fetch API Users Table</h1>
+
+    <p class="subtitle">
+      This task fetches users from backend API and displays them in a table.
+    </p>
+
+    <button id="loadUsersBtn">
+      Load Users
+    </button>
+
+    <p id="status"></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+
+      <tbody id="usersTableBody">
+        <!-- Users will be inserted here -->
+      </tbody>
+    </table>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

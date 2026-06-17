@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Auth Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Frontend Auth Dashboard</h1>
+
+    <section class="card">
+      <h2>Signup</h2>
+      <form id="signupForm">
+        <input type="text" id="signupName" placeholder="Name">
+        <input type="email" id="signupEmail" placeholder="Email">
+        <input type="password" id="signupPassword" placeholder="Password">
+        <button type="submit">Signup</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="email" id="loginEmail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Profile</h2>
+      <button id="profileBtn">Fetch Profile</button>
+      <button id="logoutBtn">Logout</button>
+      <pre id="result"></pre>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

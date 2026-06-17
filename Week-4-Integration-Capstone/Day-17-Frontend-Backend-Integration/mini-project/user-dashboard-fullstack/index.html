@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard Full Stack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>User Dashboard Full Stack</h1>
+
+    <section class="card">
+      <h2>Add User</h2>
+
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="age" placeholder="Age">
+        <button type="submit">Add User</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Search User</h2>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by name">
+        <button id="searchBtn">Search</button>
+        <button id="loadBtn">Load All</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Users</h2>
+
+      <p id="message"></p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody id="usersTableBody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
