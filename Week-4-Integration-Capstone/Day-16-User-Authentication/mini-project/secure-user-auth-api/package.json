@@ -1,0 +1,17 @@
+{
+  "name": "secure-user-auth-api",
+  "version": "1.0.0",
+  "description": "Secure User Authentication API with Signup Login JWT and Protected Profile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  }
+}

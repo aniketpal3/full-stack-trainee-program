@@ -1,0 +1,16 @@
+{
+  "name": "task-1-signup-password-hashing",
+  "version": "1.0.0",
+  "description": "Signup API with bcrypt password hashing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aniket Pal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.15.1"
+  }
+}
