@@ -1,0 +1,12 @@
+{
+  "name": "task-3-crud-operations",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD Operations using Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}

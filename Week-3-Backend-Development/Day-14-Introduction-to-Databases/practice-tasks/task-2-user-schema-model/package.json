@@ -1,0 +1,12 @@
+{
+  "name": "task-2-user-schema-model",
+  "version": "1.0.0",
+  "description": "User Schema and Model",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}

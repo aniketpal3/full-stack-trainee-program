@@ -1,0 +1,12 @@
+{
+  "name": "task-1-mongodb-connection",
+  "version": "1.0.0",
+  "description": "MongoDB Connection Example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.15.1"
+  }
+}
