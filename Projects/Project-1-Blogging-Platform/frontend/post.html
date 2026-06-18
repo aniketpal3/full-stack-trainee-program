@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>Blogging Platform</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div id="singlePost"></div>
+
+  <hr>
+
+  <h2>Comments</h2>
+
+  <form id="commentForm">
+    <textarea id="commentText" placeholder="Write a comment..."></textarea>
+    <button type="submit">Add Comment</button>
+  </form>
+
+  <div id="commentsContainer"></div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+  margin:0;
+}
+
+.navbar{
+  background:#222;
+  color:white;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.navbar a{
+  color:white;
+  margin-left:15px;
+  text-decoration:none;
+}
+
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:20px auto;
+}
+
+.auth-box{
+  width:400px;
+  margin:60px auto;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}
+
+input,
+textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+}
+
+button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  cursor:pointer;
+}
+
+.post-card{
+  background:white;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+}
+
+.post-card h3{
+  margin:0;
+}
+
+.post-meta{
+  color:gray;
+  font-size:14px;
+}

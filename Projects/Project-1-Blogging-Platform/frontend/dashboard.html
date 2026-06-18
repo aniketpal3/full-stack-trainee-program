@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>My Dashboard</h2>
+
+  <button onclick="logout()">Logout</button>
+</nav>
+
+<div class="container">
+
+  <h2>Create New Post</h2>
+
+  <form id="postForm">
+    <input type="text" id="title" placeholder="Post Title">
+
+    <input type="text" id="category" placeholder="Category">
+
+    <textarea id="content" placeholder="Write your blog..."></textarea>
+
+    <button type="submit">Publish</button>
+  </form>
+
+  <hr>
+
+  <h2>My Posts</h2>
+
+  <div id="myPosts"></div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
