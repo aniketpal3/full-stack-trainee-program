@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2>Task Manager</h2>
+
+    <div>
+      <span id="userName"></span>
+      <button id="logoutBtn">Logout</button>
+    </div>
+  </nav>
+
+  <main class="dashboard-container">
+
+    <section class="stats">
+      <div class="stat-card">
+        <h3>Total</h3>
+        <p id="totalTasks">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Completed</h3>
+        <p id="completedTasks">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Pending</h3>
+        <p id="pendingTasks">0</p>
+      </div>
+    </section>
+
+    <section class="task-form-card">
+      <h2>Add New Task</h2>
+
+      <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Task title">
+
+        <input type="text" id="taskDescription" placeholder="Task description">
+
+        <select id="taskCategory">
+          <option value="General">General</option>
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Urgent">Urgent</option>
+          <option value="Study">Study</option>
+        </select>
+
+        <input type="date" id="taskDueDate">
+
+        <button type="submit">Add Task</button>
+      </form>
+
+      <p id="taskMessage"></p>
+    </section>
+
+    <section class="task-list-card">
+      <h2>My Tasks</h2>
+
+      <div id="taskList"></div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

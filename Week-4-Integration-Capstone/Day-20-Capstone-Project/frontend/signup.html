@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="auth-container">
+    <h1>Create Account</h1>
+
+    <form id="signupForm">
+      <input type="text" id="signupName" placeholder="Enter name">
+      <input type="email" id="signupEmail" placeholder="Enter email">
+      <input type="password" id="signupPassword" placeholder="Enter password">
+      <button type="submit">Signup</button>
+    </form>
+
+    <p id="signupMessage"></p>
+
+    <p>
+      Already have an account?
+      <a href="login.html">Login</a>
+    </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
