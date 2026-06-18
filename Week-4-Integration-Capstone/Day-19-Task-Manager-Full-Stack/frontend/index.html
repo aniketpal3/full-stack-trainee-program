@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Task Manager</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Task Manager</h1>
+
+    <div class="task-form">
+
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Enter task title"
+      >
+
+      <select id="categoryInput">
+
+        <option value="General">
+          General
+        </option>
+
+        <option value="Work">
+          Work
+        </option>
+
+        <option value="Personal">
+          Personal
+        </option>
+
+        <option value="Urgent">
+          Urgent
+        </option>
+
+      </select>
+
+      <button onclick="addTask()">
+        Add Task
+      </button>
+
+    </div>
+
+    <p id="message"></p>
+
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
